@@ -1,9 +1,17 @@
-compareTo(Word o) //in word class
-I compare the text field of both Word objects in order to determine if the word is in the 
-binary search tree when contains is called.
+FileSearcher
+Essentially the main of this respository. This project creates a binary
+search tree in which the words in all of the files, along with the files
+in which they are located are stored. This file, when ran, gives the user
+a choice of seeing all of the words, where a specific word they are looking
+for is located, and to quit from the search. For this to work, you would
+need to load the path of the directory from command line or an environment
+that allows for a command line input.
 
-Printing fileLists
-I could not figure out a good way to print using the binary search tree, so I added each 
-Word object to an ArrayList in addition to the Binary search tree in order to make printing
-their fileLists simpler. As a result, my words and their filelists will print in an odd
-order when the a command is called.
+directory(The other folder)
+A test directory.
+
+BinarySearchTree
+A class used to create a binary search tree of word objects.
+
+Word
+Word objects meant to represent all of the word in each file.
